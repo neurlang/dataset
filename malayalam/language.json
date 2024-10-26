@@ -1,0 +1,10 @@
+{"Map":{
+"ഃ":["p"],
+"ഈ":["iː"],
+"ഔ":["au̯"],
+"ഞ":["ɲ"],
+"ഢ":["ɖ"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DstMultiPrefix":["ˈ","'","ˌ"],
+"DropLast":null,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}]}

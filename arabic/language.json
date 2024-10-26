@@ -1,0 +1,7 @@
+{"Map":{
+"ءُ":["ʔ"],
+"َى":["aː"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DstMultiPrefix":["ˈ","'","ˌ"],
+"DropLast":null,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"Trim":".,!"},{"Normalize":"NFC"}]}

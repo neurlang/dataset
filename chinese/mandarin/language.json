@@ -1,0 +1,17 @@
+{"Map":{
+"㮮":["tɕjɛ˧˥_"],
+"䩩":["ɥœn˨˩˦_"],
+"䩮":["lu˥˩_"],
+"婩":["jɛn˥˩_"],
+"宩":["ʂɚ˨˩˦_"],
+"橩":["tɕʰjʊŋ˧˥_"],
+"橮":["ljoʊ˨˩˦_"],
+"殩":["tsʰwan˥˩_"],
+"穮":["pjɑʊ˥˥_"],
+"让":["ʐɑŋ˥˩_"],
+"议":["i˥˩_"],
+"驮":["tuɔ˥˩"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":null,"DstMultiPrefix":null,"DropLast":null,"SplitBefore":["《","（","(","·","“"],
+"SplitAfter":["》","）",")","。","？","、","，","：","、","；","！","?","!",".","”"],
+"PrePhonWordSteps":[{"Normalize":"NFC"}]}

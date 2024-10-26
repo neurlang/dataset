@@ -1,0 +1,14 @@
+{"Map":{
+"ઃ":["ʰ"],
+"ઊ":["u"],
+"ઍ":["ə"],
+"ઑ":["ɔ"],
+"ગ":["g"],
+"ઘ":["g"],
+"પ":["p"],
+"શ":["ʃ"],
+"ૌ":["oː"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DstMultiPrefix":["ˈ","'","ˌ"],
+"DropLast":null,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}]}

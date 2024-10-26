@@ -1,0 +1,9 @@
+{"Map":{
+"j":["ʒ"],
+"k":["k"],
+"q":["k"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DstMultiPrefix":["ˈ","'","ˌ"],
+"DropLast":["f","p","d","e","t","s","g","te","m","n","l","x"],
+"SplitAfter":null,"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}]}

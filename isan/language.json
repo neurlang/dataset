@@ -1,0 +1,9 @@
+{"Map":{
+"ณ":["n"],
+"ฟ":["f"],
+"ฮ":["h"],
+"ึ":["ʉ"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DstMultiPrefix":["ˈ","'","ˌ"],
+"DropLast":null,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}]}
