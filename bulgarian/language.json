@@ -1,0 +1,11 @@
+{"Map":{
+"й":["j"],
+"п":["p"],
+"р":["r"],
+"х":["x"],
+"ш":["ʃ"],
+"э":["ɛ"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DstMultiPrefix":["ˈ","'","ˌ"],
+"DropLast":null,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}]}
