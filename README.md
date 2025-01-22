@@ -1,4 +1,6 @@
-# dataset
+# IPA Phonetic dataset lexicon
+
+85+ languages
 
 # languages not using spaces (thus the dataset must contain sentences too):
 
