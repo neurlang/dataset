@@ -1,5 +1,11 @@
 # dataset
 
+# languages not using spaces (thus the dataset must contain sentences too):
+
+* Chinese
+* Japanese
+* Tibetan
+
 # Licensing information:
 
 * [MIT] Original data for the 15 languages taken from [https://github.com/rhasspy/gruut](gruut databases)
