@@ -1,0 +1,16 @@
+{"Map":{
+"ກມ":["kɔː˩˧mɔː˧˥"],
+"ຄຸ":["kʰuʔ˧"],
+"ຈຸ":["tɕuʔ˧˥"],
+"ຖື":["tʰɯː˩˧"],
+"ທຳ":["tʰam˩˨"],
+"ຜາ":["pʰaː˩˧"],
+"ແຖ":["tʰɛː˩˧"],
+"ໃຜ":["pʰaj˩˧"],
+"ໄຂ":["kʰaj˥˧˧"],
+"ໄຫ":["haj˩˧"],
+"ໄໝ":["maj˩˧"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DstMultiPrefix":["ˈ","'","ˌ"],
+"DropLast":null,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}]}

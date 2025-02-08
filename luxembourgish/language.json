@@ -1,8 +1,7 @@
 {"Map":{
-"ng":["ɳ"],
-"ph":["f"],
-"è":["ɛː"],
+"p":["p"],
+"y":["iː"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
-"DstMultiPrefix":["ˈ","'","ˌ"],
-"DropLast":null,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":null}
+"DropLast":null,"DstMultiPrefix":["ˈ","'","ˌ"],
+"PrePhonWordSteps":null,"SplitBefore":null,"SplitAfter":null}
