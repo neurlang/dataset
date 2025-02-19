@@ -1,0 +1,11 @@
+{"Map":{
+"b":["ب"],
+"l":["ل"],
+"q":["ق"],
+"v":["و"],
+"w":["و"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],"DstMultiSuffix":null,
+"DropLast":null,"DstMultiPrefix":null,
+"PrePhonWordSteps":[{"Trim":".,!"},{"Normalize":"NFC"}],
+"SplitAfter":null}

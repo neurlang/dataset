@@ -1,0 +1,9 @@
+{"Map":{
+"f":["ஃப"],
+"w":["வ"],
+"z":["ழ"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],"DstMultiSuffix":null,
+"DropLast":null,"DstMultiPrefix":null,
+"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}],
+"SplitAfter":null}

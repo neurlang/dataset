@@ -1,0 +1,15 @@
+{"Map":{
+"d":["д"],
+"g":["г"],
+"l":["л"],
+"n":["н"],
+"p":["б"],
+"q":["га"],
+"r":["р"],
+"s":["с"],
+"y":["у"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],"DstMultiSuffix":null,
+"DropLast":null,"DstMultiPrefix":null,
+"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}],
+"SplitAfter":null}

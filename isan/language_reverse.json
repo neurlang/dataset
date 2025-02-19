@@ -1,0 +1,15 @@
+{"Map":{
+":i":["ย"],
+":k":["ก"],
+":m":["ม"],
+":n":["น"],
+"e:":["เอ"],
+"ne":["เหน้"],
+"ot":["ด"],
+"we":["เว็"],
+"ɲ":["ญ"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],"DstMultiSuffix":null,
+"DropLast":null,"DstMultiPrefix":null,
+"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}],
+"SplitAfter":null}

@@ -1,0 +1,10 @@
+{"Map":{
+"g":["과"],
+"h":["헐"],
+"p":["브"],
+"w":["원"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],"DstMultiSuffix":null,
+"DropLast":null,"DstMultiPrefix":null,
+"PrePhonWordSteps":[{"Trim":".,"},{"Normalize":"NFC"}],
+"SplitAfter":null}

@@ -1,0 +1,11 @@
+{"Map":{
+"ho":["ཤོ"],
+"jo":["་སྦྱོ"],
+"wo":["་བོ"],
+"ŋ":["ང"],
+"ɣ":["་"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],"DstMultiSuffix":null,
+"DropLast":null,"DstMultiPrefix":null,
+"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}],
+"SplitAfter":null}

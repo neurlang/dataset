@@ -1,0 +1,16 @@
+{"Map":{
+"í":["í"],
+"ɕ":["ķ"],
+"ɖ":["d"],
+"ɢ":["f"],
+"ʉ":["u"],
+"ʎ":["l"],
+"̠":["s"],
+"̬":["s"],
+"β":["b"],
+"ε":["e"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],"DstMultiSuffix":null,
+"DropLast":null,"DstMultiPrefix":null,
+"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}],
+"SplitAfter":null}

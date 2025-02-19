@@ -1,0 +1,13 @@
+{"Map":{
+"a":["阿"],
+"f":["夫"],
+"k":["会"],
+"l":["令"],
+"m":["吗"],
+"o":["欧"],
+"s":["思"],
+"t":["这"],
+"x":["和"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":null,"DropLast":null,"DstMultiPrefix":null,"PrePhonWordSteps":[{"Normalize":"NFC"}],
+"SplitAfter":["》","）",")","。","？","、","，","：","、","；","！","?","!",".","”"]}

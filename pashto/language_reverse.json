@@ -1,0 +1,14 @@
+{"Map":{
+"b":["ب"],
+"d":["د"],
+"f":["ف"],
+"l":["ل"],
+"n":["ن"],
+"q":["ق"],
+"r":["ر"],
+"s":["س"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],"DstMultiSuffix":null,
+"DropLast":null,"DstMultiPrefix":null,
+"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}],
+"SplitAfter":null}

@@ -1,0 +1,16 @@
+{"Map":{
+"b":["b"],
+"d":["d"],
+"g":["g"],
+"h":["h"],
+"m":["m"],
+"n":["n"],
+"r":["r"],
+"w":["w"],
+"x":["ch"],
+"z":["s"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],"DstMultiSuffix":null,
+"DropLast":null,"DstMultiPrefix":null,
+"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}],
+"SplitAfter":null}

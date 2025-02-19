@@ -1,0 +1,11 @@
+{"Map":{
+"d":["ড"],
+"h":["হ"],
+"t":["ট"],
+"w":["ও"],
+"x":["খ"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],"DstMultiSuffix":null,
+"DropLast":null,"DstMultiPrefix":null,
+"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}],
+"SplitAfter":null}
