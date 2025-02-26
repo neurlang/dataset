@@ -23,8 +23,8 @@
 "ྲ":["r"],
 "ླ":["l"],
 "":[]},
-"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["་"],
-"DstMultiSuffix":["_"],
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,
+"DstMultiSuffix":["ː"],
 "DropLast":null,"DstMultiPrefix":["ˈ","'","ˌ"],
 "PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}],
 "SplitAfter":null}
