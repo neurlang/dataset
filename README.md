@@ -27,3 +27,4 @@
   - TANAKA corpus [Tanaka_Corpus](http://www.edrdg.org/wiki/index.php/Tanaka_Corpus) CC-BY 2.0
   - JSUT (Japanese speech corpus of Saruwatari-lab., University of Tokyo) [JSUT](https://sites.google.com/site/shinnosuketakamichi/publication/jsut). CC-BY-SA 4.0
 * **Mozilla Public License 2.0** Japanese City Names added-on from Mozilla Common Voice 19.
+* **Apache-2.0** US/UK English data sourced from [Kokoro Misaki](https://github.com/hexgrad/misaki)
