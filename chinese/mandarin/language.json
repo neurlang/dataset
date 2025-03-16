@@ -8,10 +8,8 @@
 "橮":["ljoʊ˨˩˦_"],
 "殩":["tsʰwan˥˩_"],
 "穮":["pjɑʊ˥˥_"],
-"让":["ʐɑŋ˥˩_"],
-"议":["i˥˩_"],
+"箩":["luɔ˧˥_"],
 "驮":["tuɔ˥˩"],
 "":[]},
-"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":null,"DstMultiPrefix":null,"DropLast":null,"SplitBefore":["《","（","(","·","“"],
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":null,"DropLast":null,"DstMultiPrefix":null,"PrePhonWordSteps":[{"Normalize":"NFC"}],
 "SplitAfter":["》","）",")","。","？","、","，","：","、","；","！","?","!",".","”"],
-"PrePhonWordSteps":[{"Normalize":"NFC"}]}

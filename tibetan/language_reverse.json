@@ -1,11 +1,12 @@
 {"Map":{
 "ho":["ཤོ"],
+"hu":["བཞུ"],
 "jo":["་སྦྱོ"],
+"lh":["་ལྷ"],
 "wo":["་བོ"],
+"zo":["རྫོག"],
 "ŋ":["ང"],
-"ɣ":["་"],
 "":[]},
-"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],"DstMultiSuffix":null,
-"DropLast":null,"DstMultiPrefix":null,
-"PrePhonWordSteps":[{"ToLower":true}],
-"SplitAfter":null}
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],
+"DstMultiSuffix":null,"DropLast":null,"DstMultiPrefix":null,"PrePhonWordSteps":[{"ToLower":true}],
+"SplitAfter":null,"IsDuplex":false,"IsSrcSurround":false}

@@ -1,9 +1,11 @@
 {"Map":{
 "d":["ড"],
-"q":["ক"],
+"e":["এ"],
+"f":["ফ"],
+"h":["হ"],
+"r":["র"],
+"t":["ট"],
 "w":["ও"],
 "":[]},
-"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],"DstMultiSuffix":null,
-"DropLast":null,"DstMultiPrefix":null,
-"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}],
-"SplitAfter":null}
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],
+"DstMultiSuffix":null,"DstMultiPrefix":null,"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"Trim":".,"},{"ToLower":true}],

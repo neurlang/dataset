@@ -1,8 +1,9 @@
 {"Map":{
-"ऩ":["ɳ"],
-"़":["ɐ"],
-"ग़":["g"],
+"15":["-ɪn̪d̪ɪ"],
+"49":["pʰʈɛɳ"],
+"52":["ʔˈfɪkt̪o"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
-"DstMultiPrefix":["ˈ","'","ˌ"],
-"DropLast":null,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}]}
+"DropLast":null,"DstMultiPrefix":["ˈ","'","ˌ"],
+"PrePhonWordSteps":[{"Normalize":"NFC"},{"ToLower":true}],
+"SplitAfter":null,"IsDuplex":false,"IsSrcSurround":false}

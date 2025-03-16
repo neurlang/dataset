@@ -1,7 +1,8 @@
 {"Map":{
-"ஈ":["iː"],
-"ஊ":["uː"],
+"ழே":["ɑɻeː"],
+"ஹே":["heː"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
-"DstMultiPrefix":["ˈ","'","ˌ"],
-"DropLast":null,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}]}
+"DropLast":null,"DstMultiPrefix":["ˈ","'","ˌ"],
+"PrePhonWordSteps":[{"Normalize":"NFC"},{"ToLower":true}],
+"SplitAfter":null,"IsDuplex":false,"IsSrcSurround":false}

@@ -1,9 +1,12 @@
 {"Map":{
-"j":["ʒ"],
-"k":["k"],
-"q":["k"],
+"-q":["lk"],
+"2o":["aʃ"],
+"à":["a"],
+"æ":["a"],
+"ñ":["ɲ"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
-"DstMultiPrefix":["ˈ","'","ˌ"],
 "DropLast":["f","p","d","e","t","s","g","te","m","n","l","x"],
-"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}]}
+"DstMultiPrefix":["ˈ","'","ˌ"],
+"PrePhonWordSteps":[{"ToLower":true}],
+"SplitAfter":null,"IsDuplex":false,"IsSrcSurround":false}

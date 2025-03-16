@@ -5,6 +5,7 @@
 "e":["e"],
 "f":["f"],
 "h":["h"],
+"i":["i"],
 "j":["y"],
 "k":["k"],
 "m":["m"],
@@ -18,7 +19,5 @@
 "w":["w"],
 "z":["z"],
 "":[]},
-"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],"DstMultiSuffix":null,
-"DropLast":null,"DstMultiPrefix":null,
-"PrePhonWordSteps":[{"ToLower":true}],
-"SplitAfter":null}
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],
+"DstMultiSuffix":null,"DstMultiPrefix":null,"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}],
