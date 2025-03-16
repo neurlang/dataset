@@ -12,4 +12,6 @@
 "驮":["tuɔ˥˩"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":null,"DropLast":null,"DstMultiPrefix":null,"PrePhonWordSteps":[{"Normalize":"NFC"}],
+"SplitBefore":["《","（","(","·","“"],
 "SplitAfter":["》","）",")","。","？","、","，","：","、","；","！","?","!",".","”"],
+"IsDuplex":false,"IsSrcSurround":false}

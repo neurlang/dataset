@@ -30,4 +30,5 @@
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
 "DropLast":null,"DstMultiPrefix":["ˈ","'","ˌ"],
 "PrePhonWordSteps":[{"Normalize":"NFC"},{"ToLower":true}],
-"SplitAfter":["།"],
+"SplitBefore":null,"SplitAfter":["།"],
+"IsDuplex":false,"IsSrcSurround":false}
