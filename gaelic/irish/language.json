@@ -1,8 +1,14 @@
 {"Map":{
-"isea":["ʃə"],
-"sean":["ʃan̪ˠ"],
+"ad":["d̪ˠ"],
+"ae":["eː"],
+"an":["nˠ"],
+"ar":["ɾˠ"],
+"as":["sˠ"],
+"ib":["v"],
+"il":["lʲ"],
+"ri":["ɾʲɪ"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
 "DstMultiPrefix":["ˈ","'","ˌ"],
 "DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":["-"],
-"SplitAfter":null,"PrePhonWordSteps":[{"Trim":"'"},{"ToLower":true}],
+"SplitAfter":null,"PrePhonWordSteps":[{"Trim":"'"},{"ToLower":true}]}

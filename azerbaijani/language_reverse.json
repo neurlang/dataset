@@ -7,4 +7,4 @@
 "z":["z"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],
-"DstMultiSuffix":null,"DstMultiPrefix":null,"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}],
+"DstMultiSuffix":null,"DstMultiPrefix":null,"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}]}

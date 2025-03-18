@@ -3,4 +3,4 @@
 "p":["ب"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],
-"DstMultiSuffix":null,"DstMultiPrefix":null,"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"Trim":".,!"},{"Normalize":"NFC"}],
+"DstMultiSuffix":null,"DstMultiPrefix":null,"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"Trim":".,!"},{"Normalize":"NFC"}]}

@@ -18,4 +18,4 @@
 "˧":["一"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":null,"DstMultiPrefix":null,"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":["》","）",")","。","？","、","，","：","、","；","！","?","!",".","”"],
-"PrePhonWordSteps":[{"Normalize":"NFC"}],
+"PrePhonWordSteps":[{"Normalize":"NFC"}]}

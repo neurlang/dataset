@@ -10,4 +10,4 @@
 "DstMultiPrefix":["ˈ","'","ˌ"],
 "DropLast":["f","p","d","e","t","s","g","te","m","n","l","x"],
 "IsDuplex":false,"IsSrcSurround":false,"SplitBefore":["-"],
-"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}],
+"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}]}
