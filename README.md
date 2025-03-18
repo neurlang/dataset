@@ -1,6 +1,6 @@
 # IPA Phonetic dataset lexicon
 
-87+ languages
+136+ languages
 
 # languages not using spaces
 
