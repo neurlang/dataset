@@ -1,0 +1,11 @@
+{"Map":{
+"f":["f"],
+"h":["x"],
+"j":["j"],
+"k":["k"],
+"m":["m"],
+"s":["s"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DstMultiPrefix":["ˈ","'","ˌ"],
+"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}],

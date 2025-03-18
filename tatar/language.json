@@ -1,0 +1,7 @@
+{"Map":{
+"1":["tɾuː"],
+"5":["s"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DstMultiPrefix":["ˈ","'","ˌ"],
+"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"Normalize":"NFC"},{"ToLower":true}],

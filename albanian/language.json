@@ -1,0 +1,11 @@
+{"Map":{
+"0":["o"],
+"4":["a"],
+"5":["bɪn"],
+"6":["ɣ"],
+"7":["is"],
+"8":["a"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DstMultiPrefix":["ˈ","'","ˌ"],
+"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"Normalize":"NFC"},{"ToLower":true}],

@@ -1,0 +1,8 @@
+{"Map":{
+"3":["ʈ"],
+"5":["ʃɪ"],
+"9":["ɔː"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DstMultiPrefix":["ˈ","'","ˌ"],
+"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"Normalize":"NFC"},{"ToLower":true}],

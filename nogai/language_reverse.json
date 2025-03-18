@@ -1,0 +1,13 @@
+{"Map":{
+"aj":["ай"],
+"ak":["ак"],
+"et":["эт"],
+"ja":["я"],
+"ts":["ц"],
+"ɫ":["l"],
+"ɯ":["ы"],
+"ʍ":["w"],
+"ʲ":["ь"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],
+"DstMultiSuffix":null,"DstMultiPrefix":null,"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}],

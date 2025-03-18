@@ -1,0 +1,7 @@
+{"Map":{
+"'":["ˀ"],
+"q":["q"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DstMultiPrefix":null,"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":["-"],
+"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}],

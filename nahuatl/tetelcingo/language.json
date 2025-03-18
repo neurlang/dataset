@@ -1,0 +1,12 @@
+{"Map":{
+"ny":["ɲ"],
+"tl":["t͜ɬ"],
+"í":["i"],
+"ó":["o"],
+"ö":["ɔa"],
+"ú":["u"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DstMultiPrefix":["ˈ","'","ˌ"],
+"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":["-"],
+"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}],

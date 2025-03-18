@@ -1,0 +1,9 @@
+{"Map":{
+"à":["a"],
+"ù":["u"],
+"ɨ":["y"],
+"ɫ":["l"],
+"ʍ":["w"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],
+"DstMultiSuffix":null,"DstMultiPrefix":null,"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}],
