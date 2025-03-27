@@ -28,3 +28,5 @@
   - JSUT (Japanese speech corpus of Saruwatari-lab., University of Tokyo) [JSUT](https://sites.google.com/site/shinnosuketakamichi/publication/jsut). CC-BY-SA 4.0
 * **Mozilla Public License 2.0** Japanese City Names added-on from Mozilla Common Voice 19.
 * **Apache-2.0** US/UK English data sourced from [Kokoro Misaki](https://github.com/hexgrad/misaki)
+* **Unknown license** Cantonese [words](https://github.com/CanCLID/words) and [sentences](https://github.com/CanCLID/sentences) soruced from the [github](https://github.com/CanCLID)
+
