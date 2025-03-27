@@ -29,4 +29,4 @@
 * **Mozilla Public License 2.0** Japanese City Names added-on from Mozilla Common Voice 19.
 * **Apache-2.0** US/UK English data sourced from [Kokoro Misaki](https://github.com/hexgrad/misaki)
 * **Unknown license** Cantonese [words](https://github.com/CanCLID/words) and [sentences](https://github.com/CanCLID/sentences) soruced from the [github](https://github.com/CanCLID)
-
+* **Apache-2.0 license** English - Homographs data (multi.tsv) sourced mainly from: [Homograph disambiguation data](https://github.com/google-research-datasets/WikipediaHomographData)
