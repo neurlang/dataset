@@ -32,7 +32,7 @@ def main(filename):
     tsv_lines = convert_json_to_tsv(json_data)
 
     # Write TSV to a file
-    with open('dirty.tsv', 'a', encoding='utf-8') as f:
+    with open('lexicon.tsv', 'a', encoding='utf-8') as f:
         for line in tsv_lines:
             f.write(line + '\n')
 
