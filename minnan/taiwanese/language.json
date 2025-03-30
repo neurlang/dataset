@@ -1,0 +1,18 @@
+{"Map":{
+"㮮":["tɕjɛ˧˥_"],
+"䩩":["ɥœn˨˩˦_"],
+"䩮":["lu˥˩_"],
+"婩":["jɛn˥˩_"],
+"宩":["ʂɚ˨˩˦_"],
+"橩":["tɕʰjʊŋ˧˥_"],
+"橮":["ljoʊ˨˩˦_"],
+"殩":["tsʰwan˥˩_"],
+"穮":["pjɑʊ˥˥_"],
+"箩":["luɔ˧˥_"],
+"驮":["tuɔ˥˩"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":null,"DropLast":null,"DstMultiPrefix":null,"PrePhonWordSteps":[{"Normalize":"NFC"}],
+"SplitBefore":["《","（","(","·","“"],
+"SplitAfter":["》","）",")","。","？","、","，","：","、","；","！","?","!",".","”"],
+"SplitAt":{"(\\p{Han})([^\\p{Han}])|([^\\p{Han}])(\\p{Han})":"$1$3 $2$4"},
+"IsDuplex":false,"IsSrcSurround":false}
