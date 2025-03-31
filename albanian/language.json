@@ -1,15 +1,10 @@
 {"Map":{
-"0":["o"],
-"4":["a"],
-"5":["bɪn"],
-"6":["ɣ"],
-"7":["is"],
-"8":["a"],
 "a":["a"],
 "b":["b"],
 "c":["ts"],
 "f":["f"],
 "h":["h"],
+"i":["i"],
 "j":["j"],
 "k":["k"],
 "m":["m"],
@@ -20,5 +15,6 @@
 "x":["dz"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
-"DstMultiPrefix":["ˈ","'","ˌ"],
-"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"Normalize":"NFC"},{"ToLower":true}]}
+"DropLast":null,"DstMultiPrefix":["ˈ","'","ˌ"],
+"PrePhonWordSteps":[{"Normalize":"NFC"},{"ToLower":true}],
+"SplitBefore":null,"SplitAfter":null,"IsDuplex":false,"IsSrcSurround":false}

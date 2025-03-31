@@ -1,6 +1,10 @@
 {"Map":{
-"r":["r"],
-"x":["ch"],
+"e":["ꭱ"],
+"i":["ꭲ"],
+"o":["ꭳ"],
+"s":["ꮝ"],
+"u":["ꭴ"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],
-"DstMultiSuffix":null,"DstMultiPrefix":null,"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":null,"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}]}
+"DstMultiSuffix":null,"DropLast":null,"DstMultiPrefix":null,"PrePhonWordSteps":[{"ToLower":true}],
+"SplitBefore":null,"SplitAfter":null,"IsDuplex":false,"IsSrcSurround":false}

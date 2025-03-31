@@ -11,12 +11,14 @@
 "n":["n"],
 "p":["p"],
 "q":["k"],
+"r":["r"],
 "s":["s"],
 "t":["t"],
 "v":["v"],
 "w":["w"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
-"DstMultiPrefix":["ˈ","'","ˌ"],
-"DropLast":null,"IsDuplex":false,"IsSrcSurround":false,"SplitBefore":["-"],
-"SplitAfter":null,"PrePhonWordSteps":[{"ToLower":true}]}
+"DropLast":null,"DstMultiPrefix":["ˈ","'","ˌ"],
+"PrePhonWordSteps":[{"ToLower":true}],
+"SplitBefore":["-"],
+"SplitAfter":null,"IsDuplex":false,"IsSrcSurround":false}

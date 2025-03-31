@@ -1,0 +1,12 @@
+{"Map":{
+"ׁ":["ʃ"],
+"ן":["n"],
+"ף":["f"],
+"":[]},
+"SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
+"DropLast":null,"DstMultiPrefix":["ˈ","'","ˌ"],
+"PrePhonWordSteps":[{"Normalize":"NFD"},{"Normalize":"Sort"}],
+"SplitBefore":null,"SplitAfter":null,"SplitAt":null,"IsDuplex":false,"IsSrcSurround":false,"SrcDuplicate":[["ַ","ָ","ֲ"],
+["ֶ","ֵ","ֱ"],
+["ֹ","ׇ","ֳ"],
+["ּ","ֻ"]]}
