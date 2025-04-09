@@ -43,7 +43,6 @@ tone_map = {
 
 def tai_lo_symbol_to_number(word):
     # turn symbol tone to tone number
-    index = 0
     for c in word:
         if c in tone_symbols:
             word = word.replace(c, tone_symbols[c][0])
@@ -65,6 +64,7 @@ def tai_lo_symbol_to_number(word):
 
 
 def tai_lo_to_ipa(tai_lo):
+    if tai_lo == "": return tai_lo
     # text preprocessor
     if tai_lo[-1] == '.':
         tai_lo = tai_lo[:-1]  # remove dot
