@@ -43,23 +43,20 @@ tone_map = {
 
 def tai_lo_symbol_to_number(word):
     # turn symbol tone to tone number
+    if word == '': return word
     for c in word:
         if c in tone_symbols:
             word = word.replace(c, tone_symbols[c][0])
             word += tone_symbols[c][1]
             break
-        # for tone 8 detection
         if ord(c) == 781:
             word = word.replace(c, '')
             word += '8'
             break
-    # tone 4 detection
     if word[-1] == 'p' or word[-1] == 't' or word[-1] == 'k':
         word += '4'
-    # else, tone 1
     if ord(word[-1]) > 96:
         word += '1'
-
     return word
 
 
@@ -84,7 +81,7 @@ def tai_lo_to_ipa(tai_lo):
             # eg: guat8 -> syllable = "guat", tone = "8"
             match = re.match(r'([a-zA-Z]+)(\d?)$', syllable, re.IGNORECASE)
             if not match:
-                ipa_result.append(syllable)
+                result.append(syllable)
                 continue
             
             syllable, tone = match.groups()
@@ -116,4 +113,4 @@ def tai_lo_to_ipa(tai_lo):
 
 
 # Usage
-print(tai_lo_to_ipa("I kā si-kue tshiat-tsò sì tè")) # 他把西瓜切成四塊。
+# print(tai_lo_to_ipa("phùn--tio̍h"))
