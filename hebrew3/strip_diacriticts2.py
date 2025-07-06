@@ -1,10 +1,12 @@
 import regex as re
 from collections import Counter
 
-# === 1. Strip Hebrew diacritics + punctuation ===
+# === 1. Strip Hebrew diacritics + punctuation + | ===
 def strip_hebrew_word(word):
     # Remove diacritics
     word = re.sub(r'\p{M}+', '', word)
+    # Remove | character anywhere
+    word = word.replace('|', '')
     # Remove punctuation at edges
     word = re.sub(r'^[\.\,\?\!\:\;]+|[\.\,\?\!\:\;]+$', '', word)
     return word
@@ -13,8 +15,8 @@ def strip_hebrew_word(word):
 def strip_ipa_punctuation(word):
     return re.sub(r'^[\.\,\?\!\:\;]+|[\.\,\?\!\:\;]+$', '', word)
 
-# === 3. Load lexicon counts ===
-def load_lexicon_counts(lexicon_file):
+# === 3. Load IPA word counts ===
+def load_ipa_counts(lexicon_file):
     word_counts = Counter()
     with open(lexicon_file, 'r', encoding='utf-8') as f:
         for line in f:
@@ -26,7 +28,7 @@ def load_lexicon_counts(lexicon_file):
     return word_counts
 
 # === 4. Process sentences ===
-def process_sentences(lexicon_counts, sentences_file, output_file):
+def process_sentences(ipa_counts, sentences_file, output_file):
     with open(sentences_file, 'r', encoding='utf-8') as infile, \
          open(output_file, 'w', encoding='utf-8') as outfile:
         
@@ -48,7 +50,8 @@ def process_sentences(lexicon_counts, sentences_file, output_file):
                 stripped_hw = strip_hebrew_word(hw)
                 stripped_iw = strip_ipa_punctuation(iw)
 
-                if lexicon_counts.get(stripped_iw, 0) == 1:
+                # Mask IPA if it appears once in lexicon
+                if ipa_counts.get(stripped_iw, 0) == 1:
                     processed_ipa.append('_')
                 else:
                     processed_ipa.append(stripped_iw)
@@ -65,6 +68,5 @@ if __name__ == "__main__":
     sentences_file = 'knesset_phonemes_v1.txt'
     output_file = 'multi.tsv'
 
-    lexicon_counts = load_lexicon_counts(lexicon_file)
-    process_sentences(lexicon_counts, sentences_file, output_file)
-
+    ipa_counts = load_ipa_counts(lexicon_file)
+    process_sentences(ipa_counts, sentences_file, output_file)

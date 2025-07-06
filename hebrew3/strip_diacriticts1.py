@@ -3,6 +3,8 @@ import regex as re
 # Hebrew diacritics are marks (category Mn)
 # This regex removes all marks from each word
 def strip_hebrew_punctuation(text):
+    # Remove | character anywhere
+    text = text.replace('|', '')
     return re.sub(r'\p{M}+', '', text)
 
 input_file = 'words_phonemes.txt'
