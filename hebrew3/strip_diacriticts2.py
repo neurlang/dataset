@@ -5,7 +5,7 @@ from collections import Counter
 def strip_hebrew_word(word):
     # Remove diacritics
     word = re.sub(r'\p{M}+', '', word)
-    # Remove | character anywhere
+    # Remove | anywhere
     word = word.replace('|', '')
     # Remove punctuation at edges
     word = re.sub(r'^[\.\,\?\!\:\;]+|[\.\,\?\!\:\;]+$', '', word)
@@ -15,20 +15,20 @@ def strip_hebrew_word(word):
 def strip_ipa_punctuation(word):
     return re.sub(r'^[\.\,\?\!\:\;]+|[\.\,\?\!\:\;]+$', '', word)
 
-# === 3. Load IPA word counts ===
-def load_ipa_counts(lexicon_file):
+# === 3. Load Hebrew word counts ===
+def load_hebrew_counts(lexicon_file):
     word_counts = Counter()
     with open(lexicon_file, 'r', encoding='utf-8') as f:
         for line in f:
             if '\t' not in line:
                 continue
-            _, ipa = line.strip().split('\t', 1)
-            stripped_ipa = strip_ipa_punctuation(ipa)
-            word_counts[stripped_ipa] += 1
+            hebrew, _ = line.strip().split('\t', 1)
+            stripped_hebrew = strip_hebrew_word(hebrew)
+            word_counts[stripped_hebrew] += 1
     return word_counts
 
 # === 4. Process sentences ===
-def process_sentences(ipa_counts, sentences_file, output_file):
+def process_sentences(hebrew_counts, sentences_file, output_file):
     with open(sentences_file, 'r', encoding='utf-8') as infile, \
          open(output_file, 'w', encoding='utf-8') as outfile:
         
@@ -50,8 +50,8 @@ def process_sentences(ipa_counts, sentences_file, output_file):
                 stripped_hw = strip_hebrew_word(hw)
                 stripped_iw = strip_ipa_punctuation(iw)
 
-                # Mask IPA if it appears once in lexicon
-                if ipa_counts.get(stripped_iw, 0) == 1:
+                # Mask IPA if Hebrew word appears once in lexicon
+                if hebrew_counts.get(stripped_hw, 0) == 1:
                     processed_ipa.append('_')
                 else:
                     processed_ipa.append(stripped_iw)
@@ -68,5 +68,5 @@ if __name__ == "__main__":
     sentences_file = 'knesset_phonemes_v1.txt'
     output_file = 'multi.tsv'
 
-    ipa_counts = load_ipa_counts(lexicon_file)
-    process_sentences(ipa_counts, sentences_file, output_file)
+    hebrew_counts = load_hebrew_counts(lexicon_file)
+    process_sentences(hebrew_counts, sentences_file, output_file)
