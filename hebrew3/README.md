@@ -15,3 +15,16 @@ https://huggingface.co/datasets/thewh1teagle/phonikud-phonemes-data/blob/main/kn
 ./study_language_reverse.sh hebrew3 --rowlossimportance 2
 ./study_language.sh hebrew3 --rowlossimportance 6
 ```
+
+## Train/Eval split
+
+```
+python3 -m venv venv
+venv/bin/pip3 install regex
+venv/bin/python3 strip_diacriticts2.py
+head -n 1000000 multi.tsv > multi_eval.tsv
+tail -n 4329211 multi.tsv > multi_train.tsv
+rm multi.tsv
+mv multi_train.tsv multi.tsv
+```
+
