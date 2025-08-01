@@ -3,22 +3,41 @@ __author__ = "Matt Zheng"
 
 import re
 
-# symbol tone to tone number mapping
+# tone diacritic → base+digit
 tone_symbols = {
-    'á': 'a2', 'à': 'a3', 'â': 'a5', 'ā': 'a7', 'a̍': 'a8', 'a̋': 'a9',
-    'é': 'e2', 'è': 'e3', 'ê': 'e5', 'ē': 'e7', 'e̍': 'e8',
-    'í': 'i2', 'ì': 'i3', 'î': 'i5', 'ī': 'i7', 'i̍': 'i8',
-    'ó': 'o2', 'ò': 'o3', 'ô': 'o5', 'ō': 'o7', 'o̍͘': 'o8',
-    'ú': 'u2', 'ù': 'u3', 'û': 'u5', 'ū': 'u7', 'u̍': 'u8'
+    'á': ('a', '2'), 'à': ('a', '3'), 'â': ('a', '5'), 'ā': ('a', '7'),
+    'a̍': ('a', '8'), 'a̋': ('a', '9'),
+    'é': ('e', '2'), 'è': ('e', '3'), 'ê': ('e', '5'), 'ē': ('e', '7'),
+    'e̍': ('e', '8'),
+    'í': ('i', '2'), 'ì': ('i', '3'), 'î': ('i', '5'), 'ī': ('i', '7'),
+    'i̍': ('i', '8'),
+    'ó': ('o', '2'), 'ò': ('o', '3'), 'ô': ('o', '5'), 'ō': ('o', '7'),
+    'o̍͘': ('o', '8'),
+    'ú': ('u', '2'), 'ù': ('u', '3'), 'û': ('u', '5'), 'ū': ('u', '7'),
+    'u̍': ('u', '8'),
 }
 
 # consonant mapping
+# Neurlang: removed tie bar (t͡, d͡). We don't currently use tie bar in other languages.
 consonant_map = {
-    'ph': 'pʰ', 'tsh': 't͡sʰ', 'ch': 't͡s', 'ng': 'ŋ',
-    'kh': 'kʰ', 'th': 'tʰ', 'j': 'd͡z', 'b': 'b',
-    'p': 'p', 'm': 'm', 't': 't', 'n': 'n',
-    'l': 'l', 'k': 'k', 'g': 'ɡ', 's': 's',
-    'h': 'h', 'ts': 'ts'
+    'ph': 'pʰ',
+    'tsh': 'tsʰ',
+    'ch': 'ts',
+    'ng': 'ŋ',
+    'kh': 'kʰ',
+    'th': 'tʰ',
+    'j': 'dz',
+    'b': 'b',
+    'p': 'p',
+    'm': 'm',
+    't': 't',
+    'n': 'n',
+    'l': 'l',
+    'k': 'k',
+    'g': 'ɡ',
+    's': 's',
+    'h': 'h',
+    'ts': 'ts'
 }
 
 # vowel mapping
@@ -75,80 +94,116 @@ tone_map = {
 }
 
 
-def tai_lo_symbol_to_number(word):
-    # turn symbol tone to tone number
-    if word == '': return word
-    for c in word:
-        if c in tone_symbols:
-            word = word.replace(c, tone_symbols[c][0])
-            word += tone_symbols[c][1]
-            break
-        elif ord(c) == 781:
-            word = word.replace(c, '')
-            word += '8'
-            break
-        elif ord(c) == 779:
-            word = word.replace(c, '')
-            word += '9'
-            break
-    if word[-1] == 'p' or word[-1] == 't' or word[-1] == 'k' or word[-1] == 'h':
-        word += '4'
-    if ord(word[-1]) > 96:
-        word += '1'
-    return word
+def tai_lo_symbol_to_number(syllable, category):
+    """Convert a single Tâi-lô syllable with tone marks → tone‐number form."""
+    if not syllable:
+        return syllable
 
+    syl = syllable
+    tone_applied = False
 
-def tai_lo_to_ipa(tai_lo):
-    if tai_lo == "": return tai_lo
-    # text preprocessor
-    if tai_lo[-1] == '.':
-        tai_lo = tai_lo[:-1]  # remove dot
-    tai_lo = tai_lo.lower()  # convert input to lowercase
+    # 2) Look for any tone symbol, replace it, append the digit
+    for sym, (base, digit) in tone_symbols.items():
+        if sym in syl:
+            syl = syl.replace(sym, base)
+            syl += digit
+            tone_applied = True
+            break
 
-    ipa_result = []
+    # 3) Strip any leftover combining marks (Mn = Nonspacing Mark)
+    syl = ''.join(ch for ch in syl if category(ch) != 'Mn')
+
+    # 4) If no tone yet, infer: checked finals → 4, else → 1
+    if not tone_applied:
+        # pull off any trailing digits first
+        m = re.match(r'^(.*?)(\d?)$', syl)
+        base = m.group(1)
+        if base and base[-1] in ('p', 't', 'k', 'h'):
+            syl = base + '4'
+        else:
+            syl = base + '1'
+
+    return syl
+
+def tai_lo_to_ipa(tai_lo, category):
+    # remove trailing dot
+    if tai_lo.endswith('.'):
+        tai_lo = tai_lo[:-1]
+    tai_lo = tai_lo.lower()
+    ipa_words = []
+
     for word in tai_lo.split():
-        # print('process: %s' % word)
-        syllables = word.split('-')
-        result = []
+        # if a word has '/', process each alt separately
+        alts = []
+        for alt in word.split('/'):
+            syllables = alt.split('-')
+            out_syl = []
 
-        for syllable in syllables:
-            # convert input to tone number
-            syllable = tai_lo_symbol_to_number(syllable)
+            for syl in syllables:
+                numbered = tai_lo_symbol_to_number(syl, category)
 
-            # this will split phone & tone
-            # eg: guat8 -> syllable = "guat", tone = "8"
-            match = re.match(r'([a-zA-Z]+)(\d?)$', syllable, re.IGNORECASE)
-            if not match:
-                result.append(syllable)
-                continue
-            
-            syllable, tone = match.groups()
-            ipa = ''
+                # split into base and tone
+                m = re.match(r'^([a-z]+)(\d)$', numbered, re.IGNORECASE)
+                if not m:
+                    out_syl.append(numbered)
+                    continue
+                base, tone = m.groups()
 
-            # processing consonant
-            for cons_index in range(3, -1, -1):
-                if cons_index > len(syllable): continue
-                if syllable[0:cons_index] in consonant_map:
-                    ipa += consonant_map[syllable[0:cons_index]]
-                    break
+                # consonant
+                ipa = ''
+                for L in range(3, -1, -1):
+                    head = base[:L]
+                    if head in consonant_map:
+                        ipa += consonant_map[head]
+                        rest = base[L:]
+                        break
+                else:
+                    rest = base
 
-            # processing vowel
-            left = cons_index
-            for vowel_index in range(len(syllable), cons_index, -1):
-                if syllable[left:vowel_index] in vowel_map:
-                    ipa += vowel_map[syllable[left:vowel_index]]
-                    left = vowel_index
+                # vowel(s)
+                i = 0
+                while i < len(rest):
+                    # try the longest match in vowel_map
+                    for j in range(len(rest), i, -1):
+                        piece = rest[i:j]
+                        if piece in vowel_map:
+                            ipa += vowel_map[piece]
+                            i = j - 1
+                            break
+                    i += 1
 
-            # processing tone
-            if tone in tone_map:
+                # tone
                 ipa += tone_map[tone]
+                out_syl.append(ipa)
 
-            result.append(ipa)
+            alts.append('-'.join(out_syl))
+        ipa_words.append('/'.join(alts))
 
-        ipa_result.append('-'.join(result))
+    return ' '.join(ipa_words)
 
-    return ' '.join(ipa_result)
+matching_punct = [[" ", " "],[".", "。"],[")", "）"],["(", "（"],[")", ")"],["(", "("],["?", "？"],[",","，"],[";","；"],["!","！"]]
 
+def trim_tai_lo(text):
+    for punct in matching_punct:
+        text = text.strip(punct[0])
+    return text
+
+def trim_characters(text):
+    for punct in matching_punct:
+        text = text.strip(punct[1])
+    return text
+
+def split_same(text0, text1):
+    for punct in matching_punct:
+        if text0.count(punct[0]) == text1.count(punct[1]):
+            text0 = text0.replace(punct[0], '\t')
+            text1 = text1.replace(punct[1], '\t')
+    text0 = text0.split('\t')
+    text1 = text1.split('\t')
+    return (text0, text1)
+
+def ipa_clean(ipa):
+    return ipa.replace(" ", "").replace("-", "")
 
 # Usage
 # print(tai_lo_to_ipa("Liâm-mi beh tsò-hong-thai--lah!"))
