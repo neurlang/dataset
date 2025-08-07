@@ -9,6 +9,7 @@
 * Chinese
 * Japanese
 * Tibetan
+* Thai
 
 # Licensing information:
 
