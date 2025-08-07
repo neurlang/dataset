@@ -31,3 +31,4 @@
 * **Unknown license** Cantonese [words](https://github.com/CanCLID/words) and [sentences](https://github.com/CanCLID/sentences) soruced from the [github](https://github.com/CanCLID)
 * **Apache-2.0 license** English - Homographs data (multi.tsv) sourced mainly from: [Homograph disambiguation data](https://github.com/google-research-datasets/WikipediaHomographData)
 * **cc-by-nc-sa-4.0** Hokkien Taiwanese Minnan - Data from [sarahwei](https://huggingface.co/datasets/sarahwei/Taiwanese-Minnan-Example-Sentences)
+* **cc** Hebrew3 data from [thewh1teagle](https://huggingface.co/datasets/thewh1teagle/phonikud-phonemes-data)
