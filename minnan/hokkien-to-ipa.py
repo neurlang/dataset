@@ -18,7 +18,7 @@ tone_symbols = {
 }
 
 # consonant mapping
-# Neurlang: removed tie bar (t͡, d͡). We don't currently use tie bar in other languages.
+# Neurlang: removed tie bar (t͡, d͡). We don't currently use tie bar in other languages or any languages or support it.
 consonant_map = {
     'ph': 'pʰ',
     'tsh': 'tsʰ',
@@ -34,7 +34,7 @@ consonant_map = {
     'n': 'n',
     'l': 'l',
     'k': 'k',
-    'g': 'ɡ',
+    'g': 'g',
     's': 's',
     'h': 'h',
     'ts': 'ts'
