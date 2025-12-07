@@ -1,5 +1,6 @@
 {"Map":{
-"":[]},
+"aa":["ˌa"],
+"ch":["χ"]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
 "DropLast":null,"DstMultiPrefix":["ˈ","'","ˌ"],
-"PrePhonWordSteps":["-"],"SplitBefore":null,"SplitAfter":null,"IsDuplex":false,"IsSrcSurround":false}
+"PrePhonWordSteps":null,"SplitBefore":null,"SplitAfter":null,"IsDuplex":false,"IsSrcSurround":false}
