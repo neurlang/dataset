@@ -1,15 +1,20 @@
 # IPA Phonetic dataset lexicon
 
-136+ languages
+140+ languages
 
 # languages not using spaces
 
 **(thus their dataset must contain sentences too)**:
 
-* Chinese
+* Cantonese
+* Minnan/Hokkien
+* Minnan/Taiwanese
+* Minnan/Hokkien2
+* Minnan/Taiwanese2
+* Chinese/Mandarin
 * Japanese
 * Tibetan
-* Thai
+* Shantaiyai
 
 # Licensing information:
 
