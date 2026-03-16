@@ -1,8 +1,60 @@
 # IPA Phonetic dataset lexicon
 
-140+ languages
+## Overview
 
-# languages not using spaces
+This repository provides multilingual phonetic lexicons mapping words to their **IPA (International Phonetic Alphabet) pronunciations**.
+
+The dataset currently covers **140+ languages** and is organized as simple TSV lexicons containing word–IPA pairs. Each language directory contains a `lexicon.tsv` file with the following format:
+
+```
+word<TAB>ipa
+```
+
+Example:
+```tsv
+hello    həˈloʊ
+world    wɝːld
+```
+## Dataset Structure
+
+Each language has its own directory:
+
+```
+<language>/lexicon.tsv
+<language>/<language>/lexicon.tsv
+```
+
+The files contain tab-separated pairs:
+
+```
+word    ipa_pronunciation
+```
+
+This simple structure makes the dataset easy to use in training pipelines, phonemizers, and speech systems.
+
+## Applications
+
+This dataset is primarily intended for:
+
+* Grapheme-to-Phoneme (G2P) training
+* Phonemization pipelines
+* Text-to-Speech (TTS) systems
+* Speech recognition lexicons
+* Linguistic and phonetic research
+
+It is currently used by the **goruut phonemizer**, a multilingual grapheme-to-phoneme system.
+
+## Motivation
+
+Recent research shows that using phonemes instead of raw text can significantly improve speech models. As discussed in the Hugging Face article *"G2P Shrinks Speech Models"*, phoneme-based pipelines can:
+
+* reduce TTS model size
+* improve pronunciation accuracy
+* simplify multilingual speech modeling
+
+This repository aims to provide a large, simple, and practical collection of IPA lexicons that can be used to build high-quality phonemization and speech systems.
+
+# Languages not using spaces
 
 **(thus their dataset must contain sentences too)**:
 
