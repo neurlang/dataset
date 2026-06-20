@@ -1,9 +1,10 @@
 {"Map":{
 "c":["k"],
-"r":["r"],
-"w":["w"],
+"m":["m"],
+"q":["ʔ"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
 "DropLast":null,"DstMultiPrefix":["ˈ","'","ˌ"],
 "PrePhonWordSteps":[{"ToLower":true}],
-"SplitBefore":["-"],"SplitAfter":null,"IsDuplex":false,"IsSrcSurround":false}
+"SplitBefore":["-"],
+"SplitAfter":null,"SplitAt":null,"IsDuplex":false,"IsSrcSurround":false,"SrcDuplicate":null}

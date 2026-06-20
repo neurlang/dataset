@@ -1,7 +1,10 @@
 {"Map":{
-"a":["過來"],
-"k":["以過量餵養的方式，把豬隻的"],
-"l":["動物的肌肉組織因長瘡，受"],
+"ah!1":["矣！"],
+"ap˦":["盒"],
+"ap˨":["壓"],
+"at˨":["遏"],
+"ǹg1":["向"],
+"ḿ1":["姆"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":null,"DropLast":null,"DstMultiPrefix":null,"PrePhonWordSteps":[{"Normalize":"NFC"}],
 "SplitBefore":null,"SplitAfter":["》","）",")","。","？","、","，","：","、","；","！","?","!",".","”"],

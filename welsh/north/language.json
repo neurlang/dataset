@@ -2,10 +2,14 @@
 "b":["b"],
 "c":["k"],
 "d":["d"],
+"g":["g"],
 "h":["h"],
+"j":["dʒ"],
 "k":["k"],
 "l":["l"],
-"s":["s"],
+"m":["m"],
+"p":["p"],
+"r":["r"],
 "x":["ks"],
 "z":["s"],
 "":[]},
@@ -13,4 +17,4 @@
 "DropLast":null,"DstMultiPrefix":["ˈ","'","ˌ"],
 "PrePhonWordSteps":[{"Trim":"'"},{"ToLower":true}],
 "SplitBefore":["-"],
-"SplitAfter":null,"IsDuplex":false,"IsSrcSurround":false}
+"SplitAfter":null,"SplitAt":null,"IsDuplex":false,"IsSrcSurround":false,"SrcDuplicate":null}

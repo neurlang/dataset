@@ -7,6 +7,7 @@
 "ح":["ħ"],
 "خ":["x"],
 "د":["d"],
+"ر":["ɾ"],
 "ز":["z"],
 "س":["s"],
 "ش":["ʃ"],
@@ -17,12 +18,14 @@
 "م":["m"],
 "پ":["p"],
 "چ":["tʃ"],
+"ڕ":["r"],
 "ژ":["ʒ"],
 "ڤ":["v"],
+"گ":["g"],
 "ڵ":["ɫ"],
 "ھ":["h"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
 "DropLast":null,"DstMultiPrefix":["ˈ","'","ˌ"],
 "PrePhonWordSteps":[{"Normalize":"NFC"},{"ToLower":true}],
-"SplitBefore":null,"SplitAfter":null,"IsDuplex":false,"IsSrcSurround":false}
+"SplitBefore":null,"SplitAfter":null,"SplitAt":null,"IsDuplex":false,"IsSrcSurround":false,"SrcDuplicate":null}

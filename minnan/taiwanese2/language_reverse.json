@@ -1,9 +1,9 @@
 {"Map":{
-"!":["！"],
-".":["。"],
-"?":["？"],
 "a":["，"],
 "g":["我"],
+"h":["孝順的兒子。也指父母死後"],
+"k":["盾和矛"],
+"l":["人在做"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":null,"DropLast":null,"DstMultiPrefix":null,"PrePhonWordSteps":[{"Normalize":"NFC"}],
 "SplitBefore":null,"SplitAfter":["》","）",")","。","？","、","，","：","、","；","！","?","!",".","”"],

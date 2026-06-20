@@ -10,7 +10,6 @@
 "ঐ":["oɪ"],
 "ও":["ʊ"],
 "ঔ":["oʊ"],
-"ক":["k"],
 "ঙ":["ŋ"],
 "ঝ":["zʱɔ"],
 "ঞ":["jɔ"],
@@ -18,7 +17,6 @@
 "ঢ":["dʱ"],
 "ল":["l"],
 "া":["a"],
-"ি":["i"],
 "ী":["i"],
 "ু":["u"],
 "ূ":["u"],
@@ -29,4 +27,4 @@
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":null,"DstMultiSuffix":["ː"],
 "DropLast":null,"DstMultiPrefix":["ˈ","'","ˌ"],
 "PrePhonWordSteps":[{"Normalize":"NFC"},{"ToLower":true}],
-"SplitBefore":null,"SplitAfter":null,"IsDuplex":false,"IsSrcSurround":false}
+"SplitBefore":null,"SplitAfter":null,"SplitAt":null,"IsDuplex":false,"IsSrcSurround":false,"SrcDuplicate":null}

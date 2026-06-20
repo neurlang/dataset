@@ -1,8 +1,10 @@
 {"Map":{
 "asi":["עַסִ"],
 "bse":["וֹבְּסֵ"],
+"gˈ":["וּגְ"],
 "iax":["יחַ"],
-"ike":["כֵּי"],
+"zˈ":["יז"],
+"ʔe":["אֶ"],
 "":[]},
 "SrcMulti":null,"DstMulti":null,"SrcMultiSuffix":["ː"],
 "DstMultiSuffix":null,"DropLast":null,"DstMultiPrefix":null,"PrePhonWordSteps":[{"ToLower":true}],
